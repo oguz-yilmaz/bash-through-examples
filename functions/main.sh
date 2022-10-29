@@ -18,7 +18,7 @@ sayHelloWithParameters Oguz Eda
 
 funcThatFails() {
 	echo "Failed func since it returned non-zero exit code"
-  return 35
+    return 35
 }
 
 if [ funcThatFails ]; then
