@@ -23,7 +23,8 @@ echo "Integer tests"
 [ 1 -gt 2 ]; echo $?
 
 echo "String tests"
-# use [[ test_command ]]
+# Use the = operator with the test [ command.
+# Use the == operator with the [[ command for pattern matching.
 # = or == is equal, != not equal
 # -z string, true if empty string
 # -n string, true if non-empty string
